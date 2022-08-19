@@ -1,18 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Free Dictionary</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Free Dictionary</h1>
-    <form action="" id="form">
 
-    </form>
-    <div id="definition"></div>
-    
+<body>
+    <div class="wrapper">
+        <header>Free Dictionary API</header>
+        <div class="search">
+            <i class="fa fa-search"></i>
+            <span class="material-icons">close</span>
+            <input type="text" placeholder="Search a word" required>
+            
+
+
+        </div>
+        <p class="info-text">Type a word to look for its meaning</p>
+        <ul>
+            <li class="word">
+                <div class="details">
+                    <p></p>
+                    <span></span>
+                </div>
+                <i class="fas fa-volume-up"></i>
+            </li>
+            <div class="content">
+                <li class="meaning">
+                    <div class="details">
+                        <p>Meaning</p>
+                        <span>..............</span>
+                    </div>
+                </li>
+                <li class="example">
+                    <div class="details">
+                        <p>Example</p>
+                        <span>..............</span>
+                    </div>
+                </li>
+                <li class="synonyms">
+                    <div class="details">
+                        <p>Synonyms</p>
+                        <span>..............</span>
+                    </div>
+                </li>
+            </div>
+        </ul>
+
+        <div id="definition"></div>
+    </div>
+
     <script src="./main.js"></script>
 </body>
+<footer>
+    <div>
+        <span>Tutorial: </span>
+        <a href="https://www.youtube.com/watch?v=uqgCF3JIHkA"> Build A Dictionary App in HTML CSS
+            &
+            JavaScript</a>
+
+        <a href="https://github.com/cmarosa2891" class="fa fa-github"> Práctica de Cmarosa2891 </a>
+    </div>
+</footer>
+
 </html>

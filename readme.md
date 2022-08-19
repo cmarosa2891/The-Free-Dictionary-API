@@ -1,4 +1,4 @@
-# Free Dictironary APP
+# Free Dictionary APP
 
 Dictionary with HTML, JS, and CSS for Nucba practice.
 
@@ -10,4 +10,4 @@ Starts on `index.html`
 * HTML
 * CSS
 * JS
-* API REST
+* API REST https://dictionaryapi.dev/
